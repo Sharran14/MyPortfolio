@@ -1,7 +1,7 @@
 # MyPortfolio
 This is My Portfolio
 
-<img style="align-content: center;" alt="Demo" src="assets/images/previewweb.png" style="max-width: 40%;">
+<img style="align-content: center;" alt="Demo" src="assets/images/previewweb.png">
 
 
 📖 Multi-Page Layout
