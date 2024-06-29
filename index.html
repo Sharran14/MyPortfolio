@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/lion.png" type="image/x-icon">
+    <title>Portfolio | Sharran</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Shaaz</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#certificate" class="nav-link">Certificates</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <form method="post" action="mailto:sharran.ravii@gmail.com">
+            <button class="btn">Email Me <i class="uil uil-paperclip"></i></button>
+            </form>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Sharran Ravi</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm a <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Hello! Im a fresh graduate with a passion for development, artificial intelligence, and cybersecurity.
+                     Highly motivated and eager to tackle new challenges, I'm ready to innovate in the tech world. 
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <form class="featured-text-btn"  action="https://wa.me/601111217135" target="_blank" rel="noopener noreferrer">
+                    <button class="btn">Hire Me <i class="uil uil-phone"></i></button>
+                </form>
+                <form action="https://pdflink.to/ba3cbb18/" target="_blank" rel="noopener noreferrer">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                </form>
+            </div>
+            <div class="social_icons">
+                <div class="icon">
+                    <a href="https://www.instagram.com/s.h.a.r.r.a.n?igsh=emo1YmYzZTNycWo3&utm_source=qr" class="icon" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/sharran-ravi" class="icon" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="#home" class="icon">
+                        <i class="uil uil-dribbble"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/Sharran14" class="icon" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/Sharran.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+       </section>
+       <div class="chatbox-wrapper">
+        <div class="chatbox-toggle">
+            <i class="uil uil-comment-message"></i>
+        </div>
+        <div class="chatbox-message-wrapper">
+            <div class="chatbox-message-header">
+                <div class="chatbox-message-profile">
+                    <img src="assets/images/shaaz.JPG" alt="" class="chatbox-message-image">
+                    <div>
+                        <h4 class="chatbox-message-name">Sharran Ravi</h4>
+                        <p class="chatbox-message-status">online</p>
+                    </div>
+                </div>
+                <div class="chatbox-message-dropdown">
+                    <i class='uil-ellipsis-v chatbox-message-dropdown-toggle'></i>
+                    <ul class="chatbox-message-dropdown-menu">
+                        <li>
+                            <a href="#">Search</a>
+                        </li>
+                        <li>
+                            <a href="#">Report</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chatbox-message-content">
+                <h4 class="chatbox-message-no-message">Give me your honest feedback about My Portfolio.
+                    This chatbot feature is in initial development phase.
+                </h4>
+            </div>
+            <div class="chatbox-message-bottom">
+                <form id="mySubmit" action="#" class="chatbox-message-form">
+                    <textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+                    
+                    <button id="submit" type="submit" class="chatbox-message-submit"><i class='uil-message' ></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I'm a versatile student skilled in web and app development, 
+                        artificial intelligence, and cybersecurity. I specialize in crafting robust, intelligent solutions across various platforms.
+                         My expertise spans creating dynamic websites and apps, implementing advanced 
+                        AI models for data-driven insights, and fortifying systems with strong cybersecurity measures. I'm passionate about 
+                        leveraging technology to innovate and deliver creative solutions that meet organization's needs effectively.
+                    </p>
+                    <div class="about-btn">
+                        <form action="https://pdflink.to/ba3cbb18/" target="_blank" rel="noopener noreferrer">
+                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Software Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Python</span>
+                        <span>Flutter</span>
+                        <span>HTML</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>React</span>
+                        <span>Angular</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>Firebase</span>
+                        <span>Unit Testing</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Artificial Intelligence</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Deep Learning</span>
+                        <span>Detection</span>
+                        <span>Classification</span>
+                        <span>NLP</span>
+                        <span>Robotics</span>
+                        <span>Rule-Based System</span>
+                        <span>Drones</span>
+                        <span>Data Handling</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Cyber Security</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Firewall</span>
+                        <span>Network Protocols</span>
+                        <span>SQL Injection</span>
+                        <span>SIEM</span>
+                        <span>AWS</span>
+                        <span>Azure</span>
+                        <span>SQL Injection</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+       <!-- -------------- CERTIFICATE BOX ---------------- -->
+       <section class="section" id="certificate">
+          <div class="top-header">
+              <h1>Certificates</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <h2>Microsoft</h2>
+                <h3>Certificates</h3>
+                <label>-Power Platform Fundamentals</label>
+                <label>-Azure Fundamentals</label>
+            </div>
+            <div class="project-box">
+                <h2>TryHackMe</h2>
+                <h3>Certificates</h3>
+                <label>-Junior Penetration Tester</label>
+                <label>-SOC Level 1</label>
+            </div>
+            <div class="project-box">
+                <h2>Udemy</h2>
+                <h3>Online Courses</h3>
+                <label>-Complete Web Development Bootcamp</label>
+                <label>-Mobile App Development with Flutter</label>
+                
+            </div>
+          </div>
+       </section>
+       <!-- -------------PROJECTS BOX------------------ -->
+       <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projects</h1>
+        </div>
+        <div class="about-info">
+            <h3>A YOLO-Based Deep Learning Model for Real-Time Face Mask Detection via Drone Surveillance in Public Spaces</p>
+            <p>Journal: Informatics and Computer Science Intelligent Systems Applications</h3>
+            <p>This project involves developing a YOLO (You Only Look Once) version 4 deep learning model to detect face 
+                masks in real-time using drones for surveillance in public spaces. The system aims to monitor compliance 
+                with mask-wearing regulations to enhance public health and safety. 
+            </p>
+            <div class="about-btn">
+                <form action="https://doi.org/10.1016/j.ins.2024.120865" target="_blank" rel="noopener noreferrer">
+                <button class="btn">Publication <i class="uil uil-newspaper"></i></button>
+            </form>
+            </div>
+        </div>
+        <div class="about-info">
+            <h3>UTHM Foodie: Cafe Food Ordering Application</p>
+            <p>Status: Prototype v1.0</h3>
+            <p>This application is developed using the Flutter framework and powered by Firebase for seamless and secure data management.
+                This app has unique features such as order tracking, order scheduling, and PayPal payment gateway. The administrator can manage menu, and orders.
+
+            </p>
+            <div class="about-btn">
+                <form action="https://github.com/Sharran14" target="_blank" rel="noopener noreferrer">
+                <button class="btn">Source <i class="uil uil-external-link-alt"></i></button>
+            </form>
+            </div>
+        </div>
+        <div class="about-info">
+            <h3>My Portfolio</p>
+            <p>Status: Prototype v1.0</h3>
+            <p>This wesbite is developed using HTML, CSS, and JavaScript. It is powered by MySQL and PHP for the backend. This website is built to showcase my skills and expertise.
+                It is also to attract career opportunities and networking.
+
+            </p>
+            <div class="about-btn">
+                <form action="#home" target="_blank" rel="noopener noreferrer">
+                <button class="btn">Website <i class="uil uil-user"></i></button>
+            </form>
+            </div>
+        </div>
+        <div class="about-info">
+            <h3>Deep Learning Model for Human (Person)
+                Detection from UAVs Surveillance in Search and Rescue Scenarios</p>
+            <p>Status: Initial Development</h3>
+            <p>This project is currently under development where YOLOv5 going to be utilized. This project aims to leverage YOLOv5's robust capabilities by changing the parameters in real
+                time human detection in search and rescue scenarios. 
+
+            </p>
+            <div class="about-btn">
+                <form action="#projects" target="_blank" rel="noopener noreferrer">
+                <button class="btn">Initial Stage <i ></i></button>
+            </form>
+            </div>
+        </div>
+
+     </section>
+       <!-- -------------- CONTACT BOX ---------------- -->
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a exciting ideas in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: sharran.ravii@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +60 11 1121 7135</p>
+                </div>
+             </div>
+             <div class="col">
+                
+                <div class="form-control">
+                    <form method="post" action="contact.php" class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name" name="txtName" id="txtName" autocomplete='off' required>
+                        <input type="email" class="input-field" placeholder="Email"  name="txtEmail" id="txtEmail" required>
+                    </div>
+              
+                    <div class="text-area">
+                        <textarea placeholder="Message" name="txtMessage" id="txtMessage" required></textarea>
+                    </div>
+             
+                   
+               
+                    <div class="form-button">
+                        <button class="btn" type="submit" name="Submit" id="Submit">Send <i class="uil uil-message"></i></button>
+                        <div class="form-button">
+                        <button class="btn" type="reset" name="Reset" id="Reset">Clear <i class="uil uil-history-alt"></i></button>
+                    </div>
+                    </div> 
+                
+             
+                </form>
+                </div>
+            
+             </div>
+          </div>
+       </section>
+    </main>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>SHARRAN .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#certificate">Certificates</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon">
+                <a href="https://www.instagram.com/s.h.a.r.r.a.n?igsh=emo1YmYzZTNycWo3&utm_source=qr" class="icon" target="_blank" rel="noopener noreferrer">
+                <i class="uil uil-instagram"></i>
+            </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/sharran-ravi" class="icon" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="#home" class="icon">
+                    <i class="uil uil-dribbble"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/Sharran14" class="icon" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright 2024  &copy; <a href="#home" style="text-decoration: none;">Sharran Ravi</a> - All rights reserved</p>
+            
+            
+            
+        </div>
+    </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
