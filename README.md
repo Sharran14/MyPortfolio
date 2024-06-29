@@ -1,7 +1,8 @@
 # MyPortfolio
 This is My Portfolio
 
-assets/images/previewmockup.png
+<img alt="Demo" src="assets/images/previewmockup.png" style="max-width: 100%;">
+
 
 📖 Multi-Page Layout
 
