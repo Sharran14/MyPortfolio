@@ -11,7 +11,7 @@ strong first impression for potential employers, clients, or collaborators. ⭐ 
 📱 Fully Responsive
 </p>
 <h3>Check out the link to see live demo of my portfolio. </h3>
-<h3>https://sharran-portfolio.vercel.app/></h3>
+<h3>https://sharran-portfolio.vercel.app/</h3>
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-html.svg)](https://forthebadge.com)
