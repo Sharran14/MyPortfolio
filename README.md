@@ -1,6 +1,8 @@
 # MyPortfolio
 This is My Portfolio
 
+assets/images/previewmockup.png
+
 📖 Multi-Page Layout
 
 🎨 Styled with React-Bootstrap and Css with easy to customize colors
